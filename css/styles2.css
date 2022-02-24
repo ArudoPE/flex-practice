@@ -4,13 +4,16 @@
     padding: 0;
 }
 .flex-container {
+    margin: 20px;
     display: flex;
-    padding: 10px;
 }
 
 .flex-container div {
-    background-color: lightblue;
-    border: 2px solid red;
-    height: 100px;
     flex: 1;
+    background-color: pink;
+    border: 2px solid brown;
+    height: 150px;
+}
+.flex-container .two {
+    flex: 2;
 }
