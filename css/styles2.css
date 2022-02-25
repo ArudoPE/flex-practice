@@ -3,7 +3,8 @@
     margin: 0;
     padding: 0;
 }
-.flex-container {
+.flex-container,
+.flex-container2 {
     margin: 20px;
     display: flex;
 }
@@ -16,4 +17,16 @@
 }
 .flex-container .two {
     flex: 2;
+}
+
+/*SECOND CONTAINER*/
+.flex-container2 div {
+    background-color: pink;
+    border: 2px solid brown;
+    height: 150px;
+    width: 250px;
+    flex: 1 1 auto;
+}
+.flex-container2 .two2 {
+    flex-shrink: 0;
 }
