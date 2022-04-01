@@ -4,9 +4,13 @@
     padding: 0;
 }
 .flex-container,
-.flex-container2 {
+.flex-container2,
+.flex-container3 {
     margin: 20px;
     display: flex;
+}
+.flex-container3 {
+    flex-direction: column;
 }
 
 .flex-container div {
@@ -29,4 +33,12 @@
 }
 .flex-container2 .two2 {
     flex-shrink: 0;
+}
+
+/*THIRD CONTAINER*/
+.flex-container3 div {
+    background-color: lightblue;
+    border: 2px solid red;;
+    height: 100px;
+    flex: 1 1 auto;
 }
